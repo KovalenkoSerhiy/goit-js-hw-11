@@ -15,6 +15,7 @@ let imagesData = [];
 
 loadMore.classList.add('is-hidden');
 
+
 async function fetchImg() {
     try {
       const searchQuery = searchForm.elements['searchQuery'].value.trim();
